@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "repos" : [{
+    "name" : "mutara",
+    "expand_keys" : true,
+    "url" : "http://localhost:3000/trasa/mutara-config.git",
+    "branches" : ["master"],
+    "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
+  }]
+}
